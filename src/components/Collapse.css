@@ -1,0 +1,33 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  max-width: 600px;
+}
+
+.collapse {
+  width: 300px;
+}
+  
+.collapse-button {
+  width: 180px;
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+}
+  
+.collapse-content {
+  overflow: auto;
+}
+  
+.expanded {
+  max-height: 100px;
+}
+  
+.collapsed {
+  max-height: 0;
+}
